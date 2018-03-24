@@ -16,4 +16,8 @@ A simple Outline effect for GIMP. It works by adding a border to the content of 
 1. Restart GIMP
 
 # Additional notes
+
+The effect can be performed manually without this plugin, this will just make it in a more automated fashion.
+The steps are: set alpha to selection, grow selection, create new transparent layer, move new layer down, fill selection, blur.
+
 This has been tested on GIMP 2.8 on Linux
