@@ -2,9 +2,13 @@
 A simple Outline effect for GIMP
 
 # Usage
-1. Create a text layer
-2. Go to menu Filters -> Decor -> Outline Simple
+1. Create a text layer (or any other layer), and make it the active one
 
+![Before](https://github.com/LatinSuD/outline-simple/raw/master/samples/outline1.jpg "Before")
+
+2. Go to menu Filters → Decor → Outline Simple
+
+![After](https://github.com/LatinSuD/outline-simple/raw/master/samples/outline2a.jpg "After") ![After](https://github.com/LatinSuD/outline-simple/raw/master/samples/outline2b.jpg "After")
 
 # Installation
 1. Download outline-simple.py
