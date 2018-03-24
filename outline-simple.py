@@ -25,7 +25,7 @@ def plugin_main(image, layer, border=10, color=(255,255,255), blurriness=0):
     # given border is split into: grow_border and blur
     grow_border = border * ( 100 - blurriness ) / 100
     blur = border - grow_border;
-    safe_border=border+3;
+    safe_border = border+3;
    
     # get and grow selection
     selection = pdb.gimp_selection_save(image)
@@ -45,8 +45,8 @@ def plugin_main(image, layer, border=10, color=(255,255,255), blurriness=0):
     pdb.gimp_context_set_background(oldcolor)
     
     # blur
-    pdb.gimp_selection_none(image)
     if (blurriness > 0):
+      pdb.gimp_selection_none(image)
       pdb.plug_in_gauss_rle2(image, pdb.gimp_image_get_active_layer(image), blur, blur)
 
     
