@@ -11,7 +11,7 @@ A simple Outline effect for GIMP
 ![After](https://github.com/LatinSuD/outline-simple/raw/master/samples/outline2a.jpg "After") ![After](https://github.com/LatinSuD/outline-simple/raw/master/samples/outline2b.jpg "After")
 
 # Installation
-1. Download outline-simple.py
+1. Download `outline-simple.py`
 1. Copy it to your plugin folder ( typically `~/.gimp-2.8/plug-ins/` )
 1. Restart GIMP
 
