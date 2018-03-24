@@ -9,6 +9,7 @@ from gimpfu import *
 def plugin_main(image, layer, border=10, color=(255,255,255), blurriness=0):
 
   pdb.gimp_image_undo_group_start(image)
+
   try:
 
     # Prepare for different types of input images
