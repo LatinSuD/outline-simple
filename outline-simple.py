@@ -72,9 +72,9 @@ register(
         "<Image>/Filters/Decor/Outline Simple",
         "*",
         [
-	  (PF_INT, "border", "Border", 10),
+	  (PF_INT, "border", "Border (px)", 10),
           (PF_COLOR, "color", "Color", (255, 255, 255)),
-          (PF_SLIDER, "blurriness", "Blurriness", 0, (0, 100, 1))
+          (PF_SLIDER, "blurriness", "Blurriness (%)", 0, (0, 100, 1))
 	],
         [],
         plugin_main)
