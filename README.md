@@ -1,5 +1,5 @@
 # Outline-Simple plugin for GIMP
-A simple Outline effect for GIMP
+A simple Outline effect for GIMP. It works by adding a border to the content of a layer.
 
 # Usage
 1. Create a text layer (or any other layer), and make it the active one
