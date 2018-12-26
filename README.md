@@ -21,3 +21,5 @@ The effect can be performed manually without this plugin, this will just make it
 The steps are: set alpha to selection, grow selection, create new transparent layer, move new layer down, fill selection, blur.
 
 This has been tested on GIMP 2.8 on Linux
+
+There is a similar plugin here http://pete.nu/software/gimp-outliner/
