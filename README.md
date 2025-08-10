@@ -23,3 +23,5 @@ The steps are: set alpha to selection, grow selection, create new transparent la
 This has been tested on GIMP 2.8 on Linux
 
 There is a similar plugin here http://pete.nu/software/gimp-outliner/
+
+Starting GIMP 3, you don't need this plugin anymore. Just use "GEGL Styles" filter, and enable Outline option.
